@@ -90,4 +90,28 @@ git pull -u origin main
 ```
 Use option 1 unless you did not set upstream option in step 4
 
-updating the same line
+## Example of conflict
+Main Branch
+```
+LINE 10 - hello world
+```
+Test Branch
+```
+LINE 10 - FEATURE 10
+```
+
+1. Commit changes to both before proceeding
+```
+git commit -am "(description)"
+```
+2. Update on test branch first. 
+```
+git merge main
+```
+3. Resolve conflict through code editor
+
+4. Push to github
+```
+git push -u origin test-branch
+```
+
