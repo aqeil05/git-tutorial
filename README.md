@@ -60,3 +60,17 @@ git checkout -b feature-readme-instruction
 
 ### Example of branching
 - Hello. This is a demo of branching
+
+3. Commit your changes
+```
+git status
+
+git add .
+
+git commit -m "(description)"
+```
+
+4. Push to github as its own branch
+```
+git push -u origin (name of branch)
+```
