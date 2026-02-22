@@ -57,3 +57,6 @@ git branch
 ```
 git checkout -b feature-readme-instruction
 ```
+
+### Example of branching
+- Hello. This is a demo of branching
