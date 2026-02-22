@@ -138,4 +138,11 @@ git log
 ```
 git reset a9a861cd726ee75167cb011e184621b5d87e6dab
 ```
-*replace with your specific commit version
+**replace with your specific commit version**
+
+### HARD Reset. Delete the file not just the commit
+```
+git reset --hard df8b9925d35d1f4b538cb5950495448541a67b66
+```
+**replace with your specific commit version**
+
