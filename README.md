@@ -46,3 +46,14 @@ git commit -m "(your description of changes here)"
 ```
 git push
 ```
+
+## Branching
+1. Check whether there are branches
+```
+git branch
+```
+
+2. Create a new branch. -b to create new branch
+```
+git checkout -b feature-readme-instruction
+```
