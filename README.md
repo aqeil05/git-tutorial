@@ -1,6 +1,6 @@
-#Tutorial for git
+# Tutorial for git
 
-##Creating a new folder to push to github
+## Creating a new folder to push to github
 1. Create a new folder
 2. Inside the CLI, inside the directory of the folder
 ```
@@ -23,8 +23,26 @@ git push -u origin main
 git push (Once you put -u initially)
 ```
 
+## Changes to files
+1. Make any changes
 
+2. Check status of which files have changes
+```
+git status
+```
 3. This adds all the file that you want to commit. Replace . with the respective file name like "hello.c" if you only want to add that file
 ```
 git add .
+
+git add "hello.c" "helloworld.c"
+```
+
+4. Commit the changes locally on your computer
+```
+git commit -m "(your description of changes here)"
+```
+
+5. Push the changes to GitHub
+```
+git push
 ```
