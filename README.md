@@ -115,3 +115,27 @@ git merge main
 git push -u origin test-branch
 ```
 
+## Undoing a staged edit (Undoing add)
+
+### Reset
+```
+git reset README.md(optional)
+```
+reset to undo all files. for specific files, add the name at the end
+
+### Reset after commit
+```
+git reset HEAD~1
+```
+~1 means go back 1 commit. Number after ~ represents how far back
+
+### Reset to a certain stage
+1. Obtain log of commits
+```
+git log
+```
+2. Go back to specific version
+```
+git reset a9a861cd726ee75167cb011e184621b5d87e6dab
+```
+*replace with your specific commit version
