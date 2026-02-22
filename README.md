@@ -77,3 +77,15 @@ git push -u origin (name of branch)
 git push
 ```
 Initially use option 1, subsequently can use option 2
+
+5. Send pull request through github.
+
+This does not change the code locally on your computer. Only on github
+
+6. Change code locally on computer
+```
+git pull
+
+git pull -u origin main
+```
+Use option 1 unless you did not set upstream option in step 4
