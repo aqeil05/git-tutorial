@@ -8,15 +8,30 @@ git init
 ```
 
 3. Create new repository in github. Copy the link
-4. Inside the CLI,
+
+4. Add a README.md file into the directory
+```
+git add .
+```
+
+5. Commit the README.md file
+```
+git commit -m "first commit"
+```
+
+6. Go to the correct branch
+```
+git branch -M main
+```
+7. Inside the CLI,
 ```
 git remote add origin (link here)
 ```
-5. Check with
+8. Check with
 ```
 git remote -v
 ```
-6. Push to github
+9. Push to github
 ```
 git push -u origin main
 
